@@ -1,0 +1,38 @@
+:root {
+	--lightBrown: #fabb69;
+	--mediumBrown: #793103;
+	--darkBrown: #4f1f01;
+	--titleGold: #d3a000;
+	--niceGreen: #add17e;
+	--specialPurple: #b28bde;
+	--darkBlue: #28315d;
+	--costRed: #c82811;
+	--textBlack: #000000;
+	--headingWhite: #fff1e1;
+}
+
+body {
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 24px !important;
+	color: var(--textBlue) !important;
+	background: white !important;
+}
+
+.text-title {
+	font-family: 'Cute Font', cursive;
+	font-size: 32px;
+	color: var(--titleGold);
+	letter-spacing: 0.3rem;
+}
+
+.text-blue {
+	color: var(--darkBlue);
+}
+
+.text-red {
+	color: var(--costRed);
+}
+
+.App {
+	text-align: center;
+}
